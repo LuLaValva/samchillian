@@ -1,0 +1,48 @@
+body {
+  background-color: darkblue;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+}
+th {
+  padding: 1vmin;
+  border: 1px solid lightblue;
+  font-family: monospace;
+  font-size: 2vmin;
+}
+
+#key-map {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+#scale-select {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  width: 0;
+  height: 0;
+}
+
+#scale-select div {
+  width: 9vmin;
+  height: 9vmin;
+  border-radius: 50%;
+  background-color: crimson;
+  position: fixed;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 9vmin;
+  transform-origin: 0 45vmin;
+  font-size: 3vmin;
+  font-family: "Medula One";
+  border: 1px solid white;
+}
+
+.selected-scale {
+  background-color: green !important;
+}
